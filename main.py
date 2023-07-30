@@ -1,4 +1,3 @@
-import openai
 import textbase
 from textbase.message import Message
 from textbase import models
@@ -6,7 +5,6 @@ import os
 from typing import List
 
 # Load your OpenAI API key
-models.OpenAI.api_key = "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"
 # or from environment variable:
 # models.OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
